@@ -54,7 +54,6 @@ import boofcv.struct.image.ImageType;
 /**
  * Example of how to control the camera with manual focus to select the optimal focus for viewing.
  *
- *
  * @author Peter Abeles
  */
 public class MainActivity extends VisualizeCamera2Activity
@@ -157,7 +156,6 @@ public class MainActivity extends VisualizeCamera2Activity
 		canvas.drawText(String.format(Locale.getDefault(),
 				"Focus %4d Edge %5.1f", focus, edgeValue),
 				0, 200, paintText);
-
 
 		switch( state ) {
 			case FOCUSING:
